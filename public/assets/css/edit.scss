@@ -1,0 +1,64 @@
+@import "_variables.scss";
+html.color-sidebar .sidebar-wrapper{
+    background-color: $color-primary;
+}
+img{max-width: 100%;}
+.form-select{
+    border-left: 4px solid $color-primary;
+    border-radius: 5px;
+}
+li.select2-selection__choice{
+    background: $bg-gradient-burning !important;
+    color: #fff !important;
+    border-color: $bg-light-primary !important;
+    span{
+        color: #fff !important;
+    }
+}
+.form-control{
+        background: #fff !important;
+        border-left: 4px solid $color-primary;
+        border-radius: 5px;
+        &+label{
+            text-transform: uppercase;
+        }
+    &:disabled{
+        background: #fff !important;
+        border-left: 4px solid $color-primary;
+        border-radius: 5px;
+        &+label{
+            text-transform: uppercase;
+        }
+    }
+}
+.stat{
+    &-badge{
+        background: $bg-light-primary;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    &-title{
+        background: $color-primary;
+        padding: 10px;
+        color: #fff;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 110px;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 95%;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            box-shadow: 0 0 10px black;
+        }
+    }
+    &-info-text{
+        font-size: 15px;
+        align-self: center;
+    }
+}

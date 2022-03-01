@@ -1,0 +1,68 @@
+html.color-sidebar .sidebar-wrapper {
+  background-color: #327ee5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.form-select {
+  border-left: 4px solid #327ee5;
+  border-radius: 5px;
+}
+
+li.select2-selection__choice {
+  background: linear-gradient(to right, #ff416c, #ff4b2b) !important;
+  color: #fff !important;
+  border-color: rgba(13, 110, 253, 0.11) !important;
+}
+li.select2-selection__choice span {
+  color: #fff !important;
+}
+
+.form-control {
+  background: #fff !important;
+  border-left: 4px solid #327ee5;
+  border-radius: 5px;
+}
+.form-control + label {
+  text-transform: uppercase;
+}
+.form-control:disabled {
+  background: #fff !important;
+  border-left: 4px solid #327ee5;
+  border-radius: 5px;
+}
+.form-control:disabled + label {
+  text-transform: uppercase;
+}
+
+.stat-badge {
+  background: rgba(13, 110, 253, 0.11);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.stat-title {
+  background: #327ee5;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 110px;
+}
+.stat-title::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 95%;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  box-shadow: 0 0 10px black;
+}
+.stat-info-text {
+  font-size: 15px;
+  align-self: center;
+}/*# sourceMappingURL=edit.css.map */
